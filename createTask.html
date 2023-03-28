@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Create Task</title>
+	<link rel ="stylesheet" href="style.css" type="text/css"> 
+</head>
+
+<body>
+<main>
+	<header role = "banner">
+		<h1>Welcome to Our Page!</h1>
+        <ul class="navbar">
+			<li> <a href="index.html">Home</a> </li>
+			<li> <a href="list.html">Todo List</a> </li>
+			<li> <a href="ViewDetails.html">View Task Detail</a> </li>
+		</ul>
+	</header>
+
+
+    
+    <div class="taskPage">
+        <div class="detail">
+            <form action="/list.html">
+                <label for="taskName">Task Name: </label>
+                <input type="text" id="taskName" name="taskName" maxlength="16"><br><br>
+                <label for="cat">Category: </label>
+                <select id="cat" name="cat">
+                    <option value="school">School</option>
+                    <option value="work">Work</option>
+                    <option value="personal">Personal</option>
+                </select> 
+                <label for="status">Status: </label>
+                <select id="status" name="status">
+                    <option value="completed">Completed</option>
+                    <option value="cancelled">Cancelled</option>
+                    <option value="in progress">In Progress</option>
+                </select> <br><br>
+                <label for="details">Details: </label>
+                <textarea id="details" name="details" rows="4" cols="50"></textarea><br><br>
+                <label for="location">Location: </label>
+                <input type="text" id="location" name="location" maxlength="16"><br><br>
+                <label for="dateCreated">Date Created:</label>
+                <input type="date" id="dateCreated" name="dateCreated">
+                <label for="dateDue">Date Due:</label>
+                <input type="date" id="dateDue" name="dateDue"><br><br>
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+	<p>
+		<a href="https://validator.w3.org/#validate_by_upload">Validate</a>
+	</p>
+	
+</main>
+
+<footer>&#169;Group 3</footer>
+
+
+	<!-- <a href="http://validator.w3.org/check?uri=referer">Validate</a> 	 -->
+</body>
+</html>

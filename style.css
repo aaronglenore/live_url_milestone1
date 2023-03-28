@@ -1,0 +1,114 @@
+*{
+  box-sizing: border-box;
+ }
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    padding: 40px;
+}
+
+li>a:active{
+    font-size: 120%;
+    line-height: 130%;
+    color: blue;
+}
+
+li>a:hover{
+  font-size: 120%;
+  line-height: 130%;
+  color: red;
+}
+
+li>a:visited{
+    font-size: 120%;
+    line-height: 130%;
+    color: green;
+  }
+
+header{
+    border: 5px solid black;
+    text-align: center;
+    background-image: url("download(4).jpg");
+}
+.Features{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 15px;
+  margin: 15px auto;
+  text-align: center;
+}
+
+.card{
+  margin: 12px;
+  padding: 15px;
+  border: 2px solid red;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 10px 5px 5px maroon;
+}
+
+.card:hover{
+  font-size: 120%;
+  color: red;
+}
+
+.carddetails{
+  padding: 20px 20px 20px;
+  text-align: justify;
+}
+
+  .mainbody{
+  text-align: center;
+}
+
+
+
+footer{
+  border: 5px solid black;
+  text-align: center;
+  background-color: cyan;
+}
+
+
+
+/* View Details */
+
+.taskPage{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1;
+}
+
+.detail{
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #F0F8FF;
+  grid-column: 2/3;
+  margin: 20px;
+  padding: 15px;
+
+
+  /* align-items: center; */
+}
+
+.detail>h2{
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0;
+}
+.detail>h4{
+  padding: 5px;
+  margin-left: 20px;
+}
+.detail>button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <!-- <link rel ="stylesheet" href="style.css" type="text/css">  -->
+
+
+  <title>My Todo List</title>
+</head>
+<body class="p-10">
+  <ul class="flex justify-center">
+    <li class="mr-5"> <a href="index.html">Home</a> </li>
+    <li class="mr-5"> <a href="list.html">Todo List</a> </li>
+    <li class="mr-5"> <a href="ViewDetails.html">View Task Detail</a> </li>
+  </ul>
+  <h1 class="text-2xl font-bold mb-4">My Todo List</h1>
+  <div class="flex mb-4">
+    <div class="w-1/2 mr-4">
+      <h2 class="text-lg font-medium mb-2">Important</h2>
+      <ul class="list-none">
+        <li class="bg-red-500 rounded p-2 mb-2 text-white">
+          <label class="block">
+            <input type="checkbox" class="mr-2 leading-tight">
+            <span>Submit report</span>
+          </label>
+          <div class="flex">
+            <a href="ViewDetails.html" class="bg-blue-500 rounded p-2 mb-2 text-white mr-2">View details</a>
+            <a href="ViewDetails.html" class="bg-blue-500 rounded p-2 mb-2 text-white mr-2">Delete</a>
+            <a href="ViewDetails.html" class="bg-blue-500 rounded p-2 mb-2 text-white mr-2">Update</a>
+          </div>
+        </li>
+        <li class="bg-red-500 rounded p-2 mb-2 text-white">
+          <label class="block">
+            <input type="checkbox" class="mr-2 leading-tight">
+            <span>Attend meeting</span>
+          </label>
+          <div class="flex">
+            <a href="ViewDetails.html" class="bg-blue-500 rounded p-2 mb-2 text-white mr-2">View details</a>
+            <a href="ViewDetails.html" class="bg-blue-500 rounded p-2 mb-2 text-white mr-2">Delete</a>
+            <a href="ViewDetails.html" class="bg-blue-500 rounded p-2 mb-2 text-white mr-2">Update</a>
+          </div>
+        </li>
+        <li class="bg-red-500 rounded p-2 mb-2 text-white">
+          <label class="block">
+            <input type="checkbox" class="mr-2 leading-tight">
+            <span>Write blog post</span>
+          </label>
+          <div class="flex">
+            <a href="ViewDetails.html" class="bg-blue-500 rounded p-2 mb-2 text-white mr-2">View details</a>
+            <a href="ViewDetails.html" class="bg-blue-500 rounded p-2 mb-2 text-white mr-2">Delete</a>
+            <a href="ViewDetails.html" class="bg-blue-500 rounded p-2 mb-2 text-white mr-2">Update</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="w-1/2">
+      <h2 class="text-lg font-medium mb-2">Not Important</h2>
+      <ul class="list-none">
+        <li class="bg-gray-300 rounded p-2 mb-2">
+          <label class="block">
+            <input type="checkbox" class="mr-2 leading-tight">
+            <span>Watch movie</span>
+          </label>
+          <div class="flex">
+              <a href="ViewDetails.html" class="bg-blue-500 rounded p-2 mb-2 text-white mr-2">View details</a>
+              <a href="ViewDetails.html" class="bg-blue-500 rounded p-2 mb-2 text-white mr-2">Delete</a>
+              <a href="ViewDetails.html" class="bg-blue-500 rounded p-2 mb-2 text-white mr-2">Update</a>
+          </div>
+        
+        </li>
+        <li class="bg-gray-300 rounded p-2 mb-2">
+          <label class="block">
+            <input type="checkbox" class="mr-2 leading-tight">
+            <span>Take a walk</span>
+          </label>
+          <div class="flex">
+              <a href="ViewDetails.html" class="bg-blue-500 rounded p-2 mb-2 text-white mr-2">View details</a>
+              <a href="ViewDetails.html" class="bg-blue-500 rounded p-2 mb-2 text-white mr-2">Delete</a>
+              <a href="ViewDetails.html" class="bg-blue-500 rounded p-2 mb-2 text-white mr-2">Update</a>
+          </div>
+        
+        </li>
+        <li class="bg-gray-300 rounded p-2 mb-2">
+          <label class="block">
+            <input type="checkbox" class="mr-2 leading-tight">
+            <span>Read a book</span>
+          </label>
+          <div class="flex">
+              <a href="ViewDetails.html" class="bg-blue-500 rounded p-2 mb-2 text-white mr-2">View details</a>
+              <a href="ViewDetails.html" class="bg-blue-500 rounded p-2 mb-2 text-white mr-2">Delete</a>
+              <a href="ViewDetails.html" class="bg-blue-500 rounded p-2 mb-2 text-white mr-2">Update</a>
+          </div>
+        
+        </li>
+      </ul>
+    </div>
+  </div>
+  <button class="bg-green-300 m-2 ml-0 p-3 rounded-full text-gray-600 font-bold" onclick="window.location.href = 'createTask.html';">Create New Task</button>
+
+  <footer>&#169;Group 3</footer>
+</body>
+
+</html>
